@@ -5,7 +5,7 @@
 [ext_resource path="res://Assets/background.png" type="Texture" id=3]
 [ext_resource path="res://Assets/font.ttf" type="DynamicFontData" id=4]
 
-[sub_resource type="DynamicFont" id=7]
+[sub_resource type="DynamicFont" id=1]
 
 size = 100
 use_mipmaps = false
@@ -63,7 +63,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 7 )
+custom_fonts/font = SubResource( 1 )
 text = "UnOnline - Clone"
 align = 1
 valign = 1
