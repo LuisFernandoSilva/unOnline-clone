@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/scripts/main_game.gd" type="Script" id=2]
 [ext_resource path="res://Assets/background.png" type="Texture" id=3]
 
-[node name="main_game" type="Control" index="0"]
+[node name="main_game" type="Control"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -89,8 +89,8 @@ anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
 margin_left = -273.0
-margin_top = -43.5
-margin_bottom = 43.5
+margin_top = -44.0
+margin_bottom = 43.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 focus_mode = 2

@@ -10,7 +10,8 @@ func _on_btn_host_pressed():
 
 
 func _on_btn_join_pressed():
-	pass # replace with function body
+	get_tree().change_scene("res://Assets/scenes/join_game.tscn")
+	pass 
 
 
 func _on_btn_signOut_pressed():
